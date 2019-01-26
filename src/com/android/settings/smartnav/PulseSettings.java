@@ -41,7 +41,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
-import com.msm.xtended.preferences.CustomSeekBarPreference;
+import com.derpcaf.derpzone.preferences.CustomSeekBarPreference;
 import android.provider.SearchIndexableResource;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
@@ -384,7 +384,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XTENDED;
+        return MetricsProto.MetricsEvent.DERPZONE;
     }
 
     public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

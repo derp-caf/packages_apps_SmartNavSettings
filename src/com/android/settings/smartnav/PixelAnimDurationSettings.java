@@ -37,7 +37,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.msm.xtended.preferences.CustomSeekBarPreference;
+import com.derpcaf.derpzone.preferences.CustomSeekBarPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -96,7 +96,7 @@ public class PixelAnimDurationSettings extends SettingsPreferenceFragment implem
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.XTENDED;
+        return MetricsEvent.DERPZONE;
     }
 
     @Override

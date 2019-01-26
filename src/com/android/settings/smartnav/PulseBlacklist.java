@@ -38,8 +38,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 
-import com.msm.xtended.preferences.PackageListAdapter;
-import com.msm.xtended.preferences.PackageListAdapter.PackageItem;
+import com.derpcaf.derpzone.preferences.PackageListAdapter;
+import com.derpcaf.derpzone.preferences.PackageListAdapter.PackageItem;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -98,7 +98,7 @@ public class PulseBlacklist extends SettingsPreferenceFragment implements
     public int getDialogMetricsCategory(int dialogId) {
         switch (dialogId) {
             case DIALOG_BLACKLIST_APPS:
-                return MetricsEvent.XTENDED;
+                return MetricsEvent.DERPZONE;
             default:
                 return 0;
         }
@@ -122,7 +122,7 @@ public class PulseBlacklist extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.XTENDED;
+        return MetricsEvent.DERPZONE;
     }
 
     @Override

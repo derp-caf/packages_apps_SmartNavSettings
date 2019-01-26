@@ -57,7 +57,7 @@ import com.android.internal.util.hwkeys.Config.ButtonConfig;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.msm.xtended.preferences.CustomSeekBarPreference;
+import com.derpcaf.derpzone.preferences.CustomSeekBarPreference;
 
 public class SmartbarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
@@ -220,7 +220,7 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
             case DIALOG_RESET_CONFIRM:
             case DIALOG_RESTORE_PROFILE:
             case DIALOG_SAVE_PROFILE:
-                return MetricsProto.MetricsEvent.XTENDED;
+                return MetricsProto.MetricsEvent.DERPZONE;
             default:
                 return 0;
         }
@@ -453,7 +453,7 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XTENDED;
+        return MetricsProto.MetricsEvent.DERPZONE;
     }
 
     public void updateAnimDurationPref(int buttonAnimVal) {
