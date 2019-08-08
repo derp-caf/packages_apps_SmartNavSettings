@@ -166,7 +166,7 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
 
     private boolean isPieRecentsEnabled() {
        return Settings.System.getInt(getContentResolver(),
-                      Settings.System.RECENTS_COMPONENT, 0) == 0;
+                      Settings.System.RECENTS_LAYOUT_STYLE, 0) == 0;
     }
 
     private void disableSwipeup() {
